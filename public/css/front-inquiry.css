@@ -1,0 +1,96 @@
+.grace-blue{
+  background-color: #2e6da4;
+  color: #fff;
+}
+
+.grace-grey{
+  background-color: #f7f7f7;
+  color: #fff;
+}
+
+.customHr{
+  border:0px;
+  height:1px;
+  background-image: linear-gradient(
+    to right, rgba(0,0,0,0),rgba(0,0,0,0.1), rgba(0,0,0,.1), rgba(0,0,0,0.1),rgba(0,0,0,0));
+}
+
+
+.form-outer-part{
+  padding:0;
+  border:1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px !important;
+}
+
+.form-inner-part{
+  background-color: #f7f7f7 !important;
+  border:15px solid #f7f7f7;
+  border-radius: 10px !important;
+}
+
+
+/* color of success bar begin*/
+.form-wizard .steps>li.active>a.step .number{
+  background-color: #2e6da4;
+  color: #fff;
+}
+
+.form-wizard .steps>li.done>a.step .number {
+    background-color: #2d974d;
+    color: #fff;
+}
+
+
+
+.form-wizard .steps, .form-wizard .steps>li>a.step {
+    background-color: #f7f7f7;
+}
+
+
+/* color of success bar end*/
+
+.navbar-inverse .navbar-nav>li>a{
+  color: #fff;    /* color of nav bar text*/
+}
+
+.portlet-title{
+  text-align: center;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+#main-title{
+    /* border-bottom: 2px solid #eef1f5; */
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
+#bar{
+  margin-bottom: 20px;
+}
+
+.portlet-title > h2{
+  margin-bottom: 15px;
+  text-shadow: 0px 0px 7px rgba(0,0,0,.2), 3px 5px 5px rgba(0,0,0,.1);
+}
+
+.footer-socials{
+  text-align: center;
+}
+
+.progress-bar-containter{
+  /* border-bottom: 2px solid #f1f3f6; */
+  border-bottom: 3px solid #eeeeee;
+  border-top: 3px solid #eeeeee;
+  padding:40px 0px;
+}
+
+.form-wizard > .form-body{
+  padding-top: 0px;
+}
+
+a, button, code, div, img, input, label, li, p, pre, select, span, svg, table, td, textarea, th, ul{
+  border-radius: 7px !important;
+}

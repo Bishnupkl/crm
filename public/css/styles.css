@@ -1,0 +1,248 @@
+body {
+  /* font-family: 'GFS Didot', serif; */
+  font-weight: 600;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#prevBtn {
+    background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    background-color: #4CAF50;
+}
+
+.academic{
+    /* background-color: #e6e6e6; */
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.form-group {
+margin-bottom: 15px;
+}
+.inquiry-form-inner-part{
+    /* background-color: #e6e6e6; */
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.detail-nav{
+    background-color: #F6F6F6;
+    margin-top:0.3rem;
+    padding: 1rem;
+}
+
+.followup-list{
+    background-color: #F6F6F6;
+    color: black;
+    border-radius: 1rem !important;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+th{
+    background-color: #3579b6 !important;
+    color: #F6F6F6;
+}
+
+.ribbon{
+    background-color: #1b4b72;
+    padding:0.35rem;
+    color: #F6F6F6;
+    margin: 0 -1.5rem 0 -1.5rem;
+}
+
+.title{
+  margin-left: 17px;
+}
+
+.nav-link{
+  padding: 13px 31px !important;
+}
+
+.position-nav-link{
+  padding: 10px 13px !important;
+}
+
+.heading .uppercase{
+  padding-left: 22px !important;
+}
+
+a i{
+  transform: scale(1.4);
+}
+
+.page-header.navbar{
+  height: 51px;
+}
+
+.page-bar{
+  padding-top: 8px !important;
+}
+
+.btn{
+  border-radius: 5px !important;
+
+}
+
+.blue{
+    background-color: #3579b6 !important;
+}
+
+.btn-info{
+  background-color: #3579b6;
+}
+
+.menu-toggler.sidebar-toggler{
+  transform: scale(1.5);
+}
+
+/* #dataTables_wrapper, #button_wrapper{
+  margin: auto auto;
+  padding: 0px 29px;
+} */
+
+.row+.tab-content {
+  margin:10px auto;
+  padding:1px 5px;
+}
+
+/* hr+.row{
+  margin:10px auto;
+  padding:1px 5px;
+} */
+
+.panel-body, .form-outer-part{
+  padding:0;
+  border:1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px !important;
+}
+.custom-inner-pannel-body, .form-inner-part{
+  background-color: #f7f7f7 !important;
+  border:15px solid #f7f7f7;
+  border-radius: 10px !important;
+}
+
+input, select, textarea, .select2 {
+  border-radius: 7px !important;
+}
+
+.modal-dialog>.portlet-body>.panel-body{
+  padding:15px;
+  margin:0px;
+
+}
+
+.modal-dialog>.portlet-body{
+  border-radius: 7px !important;
+  border:1px solid rgba(247, 247, 247, 0.5);
+}
+
+.panel-body>h4{
+  text-align: center;
+}
+
+td, th{
+  text-align: center;
+}
+
+.panel-body, .form-outer-part {
+  margin:0px;
+}
+
+.customHr{
+  border:0px;
+  height:1px;
+  background-image: linear-gradient(
+    to right, rgba(0,0,0,0),rgba(0,0,0,0.1), rgba(0,0,0,.1), rgba(0,0,0,0.1),rgba(0,0,0,0));
+}
+
+h2{
+	color:#2c3e50;
+	font-size: 3rem;
+}
+
+.customContainer{
+  padding-top: 20px;
+}
+
+.pull-right{
+  /* margin-top: 15px;  */ /*check for the effects it produces*/
+}
+
+.transparentRow{
+  height: 14px;
+}
+
+.page-content-wrapper>.page-content{
+  overflow: auto; /*allows the page-content to adjust its height according to the content in it*/
+}
+
+.page-header.navbar .top-menu .navbar-nav{
+  margin-top: 0px; /* to align the left item of navbar */
+}
+
+.portlet.light>.portlet-title{
+  /* change the background color */
+  background-color: #f6f6f6;
+  padding-left: 10px;
+  padding-top:5px;
+}
+
+.table-bordered>tbody>tr>td{
+  max-width: 3rem;      /* set the max width of the colum to be 3*rem */
+}
+
+#dataTables td{
+  word-wrap: break-word; /* allows a long string to be broken down to avoid overflow*/
+}
+
+.table .btn{
+margin:0 5px 5px 0;
+}
+
+.grace-blue{
+  background-color: #2e6da4;
+}
+
+.add-color{
+  color:#678d90;
+}
+
+.radio-span, .custom-sm-spacing{
+  margin:3px 3px;
+}
+
+input[type="file"]{
+  border-radius: 0px !important;
+}
